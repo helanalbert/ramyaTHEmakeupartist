@@ -1,0 +1,330 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+  font-family: "Poppins", sans-serif;
+}
+
+.home{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url(rm1.webp);
+    background-position: center;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main{
+    height: 500px;
+}
+@media(max-width:991px){
+    .sidebar{
+        background-color: rgba(255,255,255,0.15);
+        backdrop-filter: blur(10px);
+    }
+}
+#about{
+    margin-top: 30px;
+}
+.rm7{
+    border-radius: 150px 50px 30px 5px !important;
+    overflow: hidden;
+   height: 500px;
+   width: 250px;
+   object-fit: cover;
+}
+.rm2{
+    border-radius: 50px 150px 20px 20px !important;
+    height:300px;
+    width:250px;
+    overflow: hidden;
+    object-fit:cover;
+}
+.rm3{
+    border-radius:  20px 20px 150px 20px!important;
+    height:250px;
+    width:250px;
+    margin-top: 10px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.rm15{
+    border-radius: 47% 53% 55% 47% / 14% 10% 76% 76% !important;
+    height: 300px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  .flip-card-back{
+    border-radius: 47% 53% 55% 47% / 14% 10% 76% 76% !important;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url(rmback.webp);
+    color: white;
+
+  }
+  
+  .flip-card-front {
+
+    
+
+    color: black;
+  }
+  
+  .flip-card-back {
+    
+    transform: rotateY(180deg);
+  }
+  .car{
+    border: none !important;
+  }
+  #ourservices{
+    margin-left: 50px;
+  }
+ .rm2c{
+  width:490px;
+  border-radius: 10% 10% 43% 10% / 10% 10% 47% 10% !important;
+  filter: brightness(50%);
+  transition: all 0.2s ease;
+
+
+ }
+ .rm2c:hover{
+  filter:brightness(100%);
+ 
+ }
+ .ulc{
+  border: none !important;
+ }
+ .rm10c{
+  border-radius: 49% 10% 10% 10% / 42% 10% 10% 10% !important;
+  height: 80vh !important;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: center;
+  filter: brightness(50%);
+  transition: all 0.2s ease;
+ }
+ .rm10c:hover{
+  filter: brightness(100%);
+ }
+ .lic{
+  border-radius: 15px 50px !important;
+  transition: transform 0.2s ease;
+  overflow: hidden;
+  object-fit: fill;
+
+ }
+ .lic:hover{
+  transform: scale(1.5);
+ }
+
+
+
+
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+ div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  direction: ltr;
+}
+
+.sectionClass {
+  padding: 20px 0px 50px 0px;
+  position: relative;
+  display: block;
+}
+
+.fullWidth {
+  width: 100% !important;
+  display: table;
+  float: none;
+  padding: 0;
+  min-height: 1px;
+  height: 100%;
+  position: relative;
+}
+
+
+.sectiontitle {
+  background-position: center;
+  margin: 30px 0 0px;
+  text-align: center;
+  min-height: 20px;
+}
+
+.sectiontitle h2 {
+  font-size: 30px;
+  color: #222;
+  margin-bottom: 0px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+
+.headerLine {
+  width: 160px;
+  height: 2px;
+  display: inline-block;
+  background: #101F2E;
+}
+
+
+.projectFactsWrap{
+    display: flex;
+  margin-top: 30px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+#projectFacts .fullWidth{
+  padding: 0;
+}
+
+.projectFactsWrap .item{
+  width: 25%;
+  height: 100%;
+  padding: 50px 0px;
+  text-align: center;
+}
+
+.projectFactsWrap{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(brush.webp);
+  background-position: center;
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+.projectFactsWrap .item p.number{
+  font-size: 40px;
+  padding: 0;
+  font-weight: bold;
+}
+
+.projectFactsWrap .item p{
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  margin: 0;
+  padding: 10px;
+  font-family: 'Open Sans';
+}
+
+
+.projectFactsWrap .item span{
+  width: 60px;
+  background: rgba(255, 255, 255, 0.8);
+  height: 2px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.projectFactsWrap .item i{
+  vertical-align: middle;
+  font-size: 50px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+
+.projectFactsWrap .item:hover i, .projectFactsWrap .item:hover p{
+  color: white;
+}
+
+.projectFactsWrap .item:hover span{
+  background: white;
+}
+
+.cont{
+  margin-top: 5%;
+}
+.testimonials .card{
+  border:none;
+  height: 500px;
+  transform-style: preserve-3d;
+  perspective: 500px;
+  background-color: inherit;
+  margin-top: 20px;
+  background-color: #ebebe0;
+
+}
+.testimonials .card .box-front,.testimonials .card .box-back{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+.testimonials .card .box-front img{
+  height:150px;
+  border-radius:69% 58% 51% 38% / 40% 44% 93% 44% ;
+  object-fit:cover;
+  margin-bottom: 25px;
+  margin-top: 10px;
+  border: 3px solid white;
+}
+.testimonials .card .box-back .fa-quote-left{
+  margin-top: 5px;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+} 
+.testimonials .card .box-back p{
+  margin-bottom: 20px;
+  text-align: center;
+
+
+}
+.testimonials .card .box-front h1{
+  color:#66cc99;
+}
+#contact{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url(https://img.freepik.com/free-photo/blender-makeup-brushes-rose-mirror-compact-powder-beige-background_23-2148129433.jpg?size=626&ext=jpg&ga=GA1.1.159616467.1705637467&semt=ais);
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color:white !important;
+  
+}
+footer{
+  color:black;
+}
+
+
+
+
+
